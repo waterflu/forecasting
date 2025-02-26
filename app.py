@@ -12,7 +12,7 @@ st.title("Weekly Ad Spend Forecaster")
 st.write("Enter your daily spend data and assumptions to estimate weekly spend.")
 
 # Input section
-days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+days = ["Sunday", "Monday",  "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 daily_spend = []
 
 for day in days:
