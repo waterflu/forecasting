@@ -19,7 +19,7 @@ for day in days:
     value = st.number_input(f"{day} Spend (£)", min_value=0.0, format="%.2f")
     daily_spend.append(value)
 
-trend_factor = st.slider("Week-on-Week Trend Factor (%)", min_value=-50, max_value=50, value=0.00, format="%.2f") / 100 + 1
+trend_factor = st.slider("Week-on-Week Trend Factor (%)", min_value=-50, max_value=50, value=0.00, format="%.3f") / 100 + 1
 adjustment = st.number_input("Manual Adjustment (£)", value=0.0, format="%.2f")
 
 # Forecast calculation
